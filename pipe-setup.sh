@@ -34,10 +34,10 @@ Wants=network-online.target
 User=root
 Group=root
 WorkingDirectory=$PIPE_DIR
-ExecStart=$PIPE_DIR/pop \\
-    --ram $RAM \\
-    --max-disk $MAX_DISK \\
-    --cache-dir $CACHE_DIR \\
+ExecStart=$PIPE_DIR/pop \
+    --ram $RAM \
+    --max-disk $MAX_DISK \
+    --cache-dir $CACHE_DIR \
     --pubKey $PUBLIC_KEY 
 Restart=always
 RestartSec=5
