@@ -8,7 +8,7 @@ POP_BINARY_URL="$1"
 RAM="$2"
 MAX_DISK="$3"
 PUBLIC_KEY="$4"
-REFERRAL_ROUTE="3b4cb3807e27668f"
+REFERRAL_ROUTE="2659332b0a059baf"
 
 # Directories
 PIPE_DIR="/root/pipenetwork"
