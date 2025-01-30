@@ -82,13 +82,3 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ---
 
-### **Cara Menggunakan**
-1. Salin konten di atas.
-2. Buat file baru di repositori GitHub Anda dengan nama `README.md`.
-3. Tempel konten yang telah disalin ke dalam file `README.md`.
-4. Commit dan push perubahan ke repositori Anda.
-
----
-
-### **Hasil**
-File `README.md` ini akan memberikan panduan sederhana kepada pengguna tentang cara mengatur dan menjalankan Pipe POP Node menggunakan satu perintah. Anda dapat menyesuaikan kontennya sesuai kebutuhan proyek Anda.
