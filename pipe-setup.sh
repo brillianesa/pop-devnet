@@ -2,6 +2,7 @@
 
 # Stop old services
 sudo systemctl stop dcdnd.service
+sudo systemctl disable dcdnd.service
 
 # Input Variables
 POP_BINARY_URL="$1"
