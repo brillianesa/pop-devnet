@@ -1,8 +1,7 @@
 
-```markdown
 # POP Devnet Setup
 
-This repository contains scripts and instructions to set up a Pipe POP Node on your server.
+This repository contains scripts and instructions to set up a Pipe POP Node on your server in one go.
 
 ## Prerequisites
 
@@ -12,46 +11,34 @@ This repository contains scripts and instructions to set up a Pipe POP Node on y
   - RAM: 8 GB
   - Disk: 100 GB
 
-## Installation
+## One-Command Installation
 
-1. Clone this repository to your server:
+Run the following command to clone the repository, set up the environment, and configure the POP node:
 
-   ```bash
-   git clone https://github.com/brillianesa/pop-devnet.git
-    ```
+```bash
+git clone https://github.com/brillianesa/pop-devnet.git ; \
+cd pop-devnet ; \
+chmod +x pipe-setup.sh ; \
+./pipe-setup.sh "Link bin dari email" "Jumlah RAM" "Jumlah Disk" "Public Key"
+```
 
-2. Navigate to the repository directory:
+### Example
 
-   ```bash
-   cd pop-devnet
-    ```
+```bash
+git clone https://github.com/brillianesa/pop-devnet.git ; \
+cd pop-devnet ; \
+chmod +x pipe-setup.sh ; \
+./pipe-setup.sh "https://example.com/pop" 8 100 "BgycUI/ZSFxeFvBhA5ymahe383A62vuFRMcZHscXVYzd"
+```
 
-3. Make the setup script executable:
-
-   ```bash
-   chmod +x pipe-setup.sh
-   ```
-
-4. Run the setup script with the required arguments:
-
-   ```bash
-   ./pipe-setup.sh "Link bin dari email" "Jumlah RAM" "Jumlah Disk" "Public Key"
-   ```
-
-   Example:
-
-   ```bash
-   ./pipe-setup.sh "https://example.com/pop" 8 100 "BgycUI/ZSFxeFvBhA5ymahe383A6dsdw22422scXVYzd"
-   ```
-
-## Script Details
+## What the Script Does
 
 The `pipe-setup.sh` script performs the following tasks:
 
-- Downloads the POP binary from the provided link.
-- Sets up the systemd service for the POP node.
-- Configures the node with the specified RAM, disk space, and public key.
-- Starts and enables the service to run on boot.
+1. **Downloads the POP binary** from the provided link.
+2. **Sets up the systemd service** for the POP node.
+3. **Configures the node** with the specified RAM, disk space, and public key.
+4. **Starts and enables the service** to run on boot.
 
 ## Verifying the Setup
 
@@ -91,3 +78,17 @@ If you encounter any issues or have suggestions for improvement, please open an 
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+```
+
+---
+
+### **Cara Menggunakan**
+1. Salin konten di atas.
+2. Buat file baru di repositori GitHub Anda dengan nama `README.md`.
+3. Tempel konten yang telah disalin ke dalam file `README.md`.
+4. Commit dan push perubahan ke repositori Anda.
+
+---
+
+### **Hasil**
+File `README.md` ini akan memberikan panduan sederhana kepada pengguna tentang cara mengatur dan menjalankan Pipe POP Node menggunakan satu perintah. Anda dapat menyesuaikan kontennya sesuai kebutuhan proyek Anda.
