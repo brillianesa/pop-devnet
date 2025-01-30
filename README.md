@@ -18,13 +18,13 @@ This repository contains scripts and instructions to set up a Pipe POP Node on y
 
    ```bash
    git clone https://github.com/brillianesa/pop-devnet.git
-   ```
+    ```
 
 2. Navigate to the repository directory:
 
    ```bash
    cd pop-devnet
-   ```
+    ```
 
 3. Make the setup script executable:
 
