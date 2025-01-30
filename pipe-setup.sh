@@ -8,7 +8,6 @@ POP_BINARY_URL="$1"
 RAM="$2"
 MAX_DISK="$3"
 PUBLIC_KEY="$4"
-REFERRAL_ROUTE="2659332b0a059baf"
 
 # Directories
 PIPE_DIR="/root/pipenetwork"
@@ -38,8 +37,7 @@ ExecStart=$PIPE_DIR/pop \\
     --ram $RAM \\
     --max-disk $MAX_DISK \\
     --cache-dir $CACHE_DIR \\
-    --pubKey $PUBLIC_KEY \\
-    --signup-by-referral-route $REFERRAL_ROUTE
+    --pubKey $PUBLIC_KEY 
 Restart=always
 RestartSec=5
 LimitNOFILE=65536
