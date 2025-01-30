@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Stop old services
+sudo systemctl stop dcdnd.service
+
 # Input Variables
 POP_BINARY_URL="$1"
 RAM="$2"
