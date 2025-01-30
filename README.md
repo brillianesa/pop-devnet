@@ -1,6 +1,3 @@
-Berikut adalah contoh sederhana untuk file `README.md` yang bisa Anda salin dan tempel ke repositori GitHub Anda:
-
----
 
 ```markdown
 # POP Devnet Setup
