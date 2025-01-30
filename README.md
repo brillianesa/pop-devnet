@@ -28,7 +28,7 @@ chmod +x pipe-setup.sh ; \
 git clone https://github.com/brillianesa/pop-devnet.git ; \
 cd pop-devnet ; \
 chmod +x pipe-setup.sh ; \
-./pipe-setup.sh "https://example.com/pop" 8 100 "BgycUI/ZSFxeFvBhA5ymahe383A62vuFRMcZHscXVYzd"
+./pipe-setup.sh "https://example.com/pop" "8" "100" "BgycUI/ZSFxeFvBhA2323ymahe383A62vuFRMcZHscXVYzd"
 ```
 
 ## What the Script Does
